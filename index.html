@@ -49,6 +49,14 @@
     p{
         line-height: normal;
     }
+    div.scroll-container {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 500px;
+    overflow-y: scroll;
+    padding-top: 20px;
+    }
     </style>
     
     <html>
@@ -67,7 +75,7 @@
         </div>
         <div>
             <h1>About Me</h1>
-            <p>I am an ECE Sophomore in UIUC who is majoring in Electrical Engineering.
+            <p>I am an ECE Junior in UIUC who is majoring in Electrical Engineering.
                 Interested in the design aspects of the subject as in creating circuit schematics.
                 On the Electrical Team in Solar Car and look forward to learning about the circuitry of the car.</p>
         </div>
@@ -85,12 +93,12 @@
     SIGPwny: Attend CTF competitions and meetings that teach on cybersecurity<br>
     Electric Bass Guitar: Perform at UIUC events and local spaces in bands</p>
         </div>
-        <div>
-            <h2>Pictures</h2>
-            <img class="wifi-lab" src="wifi.jpg">
-            <img class="cozad1" src="cozad1.jpg">
-            <img class="cozad2" src="cozad2.jpg">
-        </div>
+            <div class="scroll-container">
+                <h1>Pictures</h1>
+                <img class="wifi-lab" src="wifi.jpg">
+                <img class="cozad1" src="cozad1.jpg">
+                <img class="cozad2" src="cozad2.jpg">
+            </div>
         <div>
             <h1>Job Experience</h1>
             <p style="font-weight: bold;">Course Assistant - ENG 177 Innovation Scholars</p>
